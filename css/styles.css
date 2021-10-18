@@ -11,71 +11,7 @@ body {
   margin: 0px;
 }
 
- /* menu****************************************************************/
-.menu{
-  text-align: left;
-  background-color: #EAF6F6;
-}
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-  position: relative;
-  display: inline-block;
-  text-align: left;
-  background-color: #EAF6F6;
-  font-size: 1.3rem;
-  font-weight: bold;
-  color: white;
-  box-shadow: 0px 0px 16px 0px rgb(217 204 209);
-  margin: 20px;
-  border-radius: 20px;
-}
-
-.hor-item{
-  padding: 20px;
-}
-
-.dropdown p{
-  margin: 0px;
-  padding:10px 20px;
-  cursor: pointer;
-}
-
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color:  #EAF6F6;
-  min-width:200px ;
-  box-shadow: 0px 0px 16px 0px rgb(217 204 209);
-  padding: 12px 16px;
-  z-index: 1;
-  border-radius: 20px;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-  display: block;
-  color:white;
-  padding: 12px 16px;
-  text-decoration:none ;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover{
-  color:#66BFBF !important;
-}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: block;  
-}
-
-.dropdown:hover p {
-  color:#66BFBF; 
-}
-
+ 
 /* top-contaner *****************************************************************/
 h1 {
   color: #66BFBF;
@@ -89,28 +25,29 @@ h1 {
   background-color: #EAF6F6;
   position: relative;
   box-shadow: 0px 40px 40px 0px rgb(234 246 247) ;
+  padding-top: 50px;
 }
 .clouddown {
   position: absolute;
   left: 250px;
-  top: 190px;
+  top: 240px;
 }
 
 .clouddown:hover{
   position: absolute;
   left: 200px;
-  top: 240px;
+  top: 290px;
 }
 
 .cloudup {
   position: absolute;
-  top: 0px;
+  top: 50px;
   right: 300px;
 }
 
 .cloudup:hover {
   position: absolute;
-  top: -50px;
+  top: 0px;
   right: 250px;
 }
 

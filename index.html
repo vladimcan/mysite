@@ -8,7 +8,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body id="home">
   <div class = "top-container">
     <img class="cloudup" src="images/cloud.png" alt="cloud-img">
     <h1>I'am Vladimir</h1>
@@ -26,17 +26,17 @@
     <div class="projects">
       <h2>Projects.</h2>
       <div class="project-row">
-        <a target="_blank" href="https://frozen-bastion-57721.herokuapp.com/">
-          <img class="left-img" src="images/dailyJournal.png" alt="project">
+        <a href="#home">
+          <img class="row-img left" src="images/mySite.png" alt="project">
         </a>
-        <h3>Daily Journal</h3>
-        <p>A basic blog platform to share your thoughts with the world. Written in Node.js with Express.js, this site utilizes form submission and a back-end database MongoDB to store and retrieve user entries. Data is stored on the cloud and managed MongoDB Atlas.
+        <h3>Home</h3>
+        <p>This site is written in pure HTML and CSS without any framework. The purpose is to briefly introduce myself and provide some examples of my work, as well as display a few technologies I am familiar with.
         </p>
       </div>
       <hr>
       <div class="project-row">
         <a target="_blank" href="https://evening-peak-37200.herokuapp.com/">
-          <img class="left-img" src="images/tinDog.png" alt="project">
+          <img class="row-img right" src="images/tinDog.png" alt="project">
         </a>
         <h3>TinDog</h3>
         <p>Can Tinder for Dogs be a thing? Designed in Bootstrap from scratch, this is a concept mock-up to do just that. I've used grid, carousel, cards, some fancy CSS to rotate the image.     
@@ -44,46 +44,58 @@
       </div>
       <hr>
       <div class="project-row">
+        <a target="_blank" href="https://frozen-bastion-57721.herokuapp.com/">
+          <img class="row-img left" src="images/dailyJournal.png" alt="project">
+        </a>
+        <h3>Daily Journal</h3>
+        <p>A basic blog platform to share your thoughts with the world. Written in Node.js with Express.js, this site utilizes form submission and a back-end database MongoDB to store and retrieve user entries. Data is stored on the cloud and managed by MongoDB Atlas.
+        </p>
+      </div>
+      <hr>
+      <div class="project-row">
         <a target="_blank" href="https://dry-everglades-43411.herokuapp.com/">
-          <img class="left-img" src="images/diceGame.png" alt="project">
+          <img class="row-img right" src="images/diceGame.png" alt="project">
         </a>
         <h3>Dice Game</h3>
         <p>A simple game written in pure JavaScript manipulating DOM elements. There are two players and each rolls a dice. Whoever gets the highest score wins.          
         </p>
       </div>
-      <hr>
-      <div class="project-row">
-        <img class="left-img" src="images\coding.png" alt="pc computer">
-        <h3>Lorem & Ipsum</h3>
-        <p>The last time learning Web Development at the bootcamp Udemy worked with frontend: HTML, CSS, Bootstrap, JavaScript, jQuery; Git, GitHub; and backend Node.js, Express.js, Database MongoDB, React.js.
-          Deployed sites with GitHub Pages, Heroku and MongoDB Atlas.
-          </p>
-      </div>
-      <hr>
-      <div class="project-row">
-        <img class="right-img" src="images\pc.png" alt="PDP computer">
-        <h3>Lorem Ipsum Dolor</h3>
-        <p>Translated components of Computer Aided Manufacturing software system for preparing numerical control machines program from Fortran 77 to C.
-           Developed programs in C.
-          </p>
-      </div>
-      <hr>
-      <div class="project-row">
-        <img class="left-img" src="images\pdp.png" alt="IBM computer">
-        <h3>Lorem & Ipsum</h3>
-        <p>Developed components of Computer Aided Manufacturing software system for preparing numerical control machines program. Those things based on minicomputers PDP-11.
-          Developed programs in Fortran IV and Fortran 77. 
-          </p>
-      </div>
-      <hr>
-      <div class="project-row">
-        <img class="right-img" src="images\ibm.png" alt="PDP computer">
-        <h3>Lorem Ipsum Dolor</h3>
-        <p>Developed programs in Fortran IV, assembler IBM/360/370.</p>     
-      </div>
+    </div>   
+  </div> 
+  
+  <div class="skills"> 
+    <div class="project-row">
+      <img class="skills-img left" src="images\coding.png" alt="pc computer">
+<!--       <h3>Lorem & Ipsum</h3>
+ -->      <p>The last time learning Web Development at the bootcamp Udemy worked with frontend: HTML, CSS, Bootstrap, JavaScript, jQuery; Git, GitHub; and backend Node.js, Express.js, Database MongoDB, React.js.
+        Deployed sites with GitHub Pages, Heroku and MongoDB Atlas.
+        </p>
+    </div> 
+    <hr>
+    <div class="project-row">
+      <img class="skills-img right" src="images\pc.png" alt="PDP computer">
+<!--       <h3>Lorem Ipsum Dolor</h3>
+ -->      <p>Translated components of Computer Aided Manufacturing software system for preparing numerical control machines program from Fortran 77 to C.
+         Developed programs in C.
+        </p>
     </div>
     <hr>
-  </div>  
+    <div class="project-row">
+      <img class="skills-img left" src="images\pdp.png" alt="IBM computer">
+<!--       <h3>Lorem & Ipsum</h3>
+ -->      <p>Developed components of Computer Aided Manufacturing software system for preparing numerical control machines program. Those things based on minicomputers PDP-11.
+        Developed programs in Fortran IV and Fortran 77. 
+        </p>
+    </div>
+    <hr>
+    <div class="project-row">
+      <img class="skills-img right" src="images\ibm.png" alt="PDP computer">
+<!--       <h3>Lorem Ipsum Dolor</h3>
+ -->      <p>Developed programs in Fortran IV, assembler IBM/360/370.</p>     
+    </div>
+  </div>
+
+
   <div class="footer">
       <h2>Get In Touch</h2>
       <a class="btn" href="mailto:vladimviv@outlook.com">CONTACT ME</a>
